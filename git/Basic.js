@@ -24,3 +24,20 @@ var name="vishal";
 var lastname="sharma";
 
 console.log('Name=', name, lastname);
+
+for(let i=15;i>0;i--){
+    console.log(i)
+}
+
+alert("Are yoiu serious?")
+confirm("Okay if your are confirm then do you wanted to proceed")
+// for(let j=0;j<10;j++){
+//     alert("Abhi se soch le ek baar andar aagya to dobara moka ni milega")
+// }
+
+function addthreenumbers(a,b,c){
+    var d = a+b+c;
+    console.log(d)
+}
+
+addthreenumbers(10,20,30)
