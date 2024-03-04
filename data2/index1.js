@@ -52,3 +52,15 @@ for(var z=0;z<10;z++){
     var randoz = Math.floor(Math.random()*(end-start)+start);
 console.log('randoz=>', randoz)
 }
+
+
+var b = Math.random();
+console.log( 'random number on reload',b)
+
+
+var min = Math.min(10,20,30)
+console.log(min)
+// this function will take the multiple parameter and will retunr the value which is minimum among all
+var max = Math.max(10,20,30)
+console.log(max)
+// this function will take the multiple parameter and will retunr the value which is maximum among all
