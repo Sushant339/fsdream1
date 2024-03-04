@@ -45,3 +45,10 @@ for(var x=0;x<10;x++){
     var rando = Math.floor(Math.random()*(end-start+1)+start);
 console.log('random=>', rando)
 }
+
+for(var z=0;z<10;z++){
+    // here i will create 10 random number between 50-90
+// Math.random() - it will return decimal => parseInt(), Math.ceil(), MAth.floow()
+    var randoz = Math.floor(Math.random()*(end-start)+start);
+console.log('randoz=>', randoz)
+}
