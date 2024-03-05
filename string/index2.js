@@ -73,4 +73,7 @@ console.log(sent.split('-'));
 console.log(sent.split('a'));
 
 
+var tense = 'i have a great craze of thins that i can not have at all';
+
+console.log(tense.split('a'));
 
