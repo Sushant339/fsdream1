@@ -64,3 +64,19 @@ console.log(min)
 var max = Math.max(10,20,30)
 console.log(max)
 // this function will take the multiple parameter and will retunr the value which is maximum among all
+
+// string - that value which is close by single quote or doublw quote is called string
+
+var numberi = '23456'
+
+console.log(typeof numberi)
+
+// to convert numberi string into number we can use two  way
+// 1. use parseInt()
+var intS = parseInt(numberi)
+console.log('instS=>', intS, 'type of instS=>', typeof intS)
+
+var ints2 = +numberi
+console.log('instS2=>', ints2, 'type of instS2=>', typeof ints2)
+
+
