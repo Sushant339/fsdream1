@@ -79,4 +79,42 @@ console.log('instS=>', intS, 'type of instS=>', typeof intS)
 var ints2 = +numberi
 console.log('instS2=>', ints2, 'type of instS2=>', typeof ints2)
 
+// Math.round();
+//  to get the round off
 
+
+// if we will apply any of the airthmatic operation to alpha numeric value it gives us a NAN
+
+var a11 = '234Sushant';
+var b11 = '23sush234';
+var b12 = 'sush123';
+
+
+var a12 = parseInt(a11);
+var b13 = parseInt(b11);
+var b14 = parseInt(b12);
+
+
+console.log('a11=', +a11) //NAN
+console.log('b11', +b11)  //NAN
+console.log('b12=', +b12)  //NAN
+
+console.log('a12=', a12) //234
+console.log('b13=', b13) //23
+console.log('b14=', b14)  //NAN
+
+
+console.log('Type of NAN', typeof NaN)
+
+// ver improtant function
+
+// isNan
+
+var n23 = 23;
+// isNan() => is a function provided byb javascript and it is globally present and it takes number as sargument, if number is Nan than it will return true, else false
+
+console.log(isNaN(n23));
+console.log(isNaN(NaN));
+console.log(isNaN('_123'));
+console.log(isNaN('123'));
+console.log(isNaN('123Sushant'));
