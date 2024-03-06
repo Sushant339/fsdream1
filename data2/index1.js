@@ -118,3 +118,6 @@ console.log(isNaN(NaN));
 console.log(isNaN('_123'));
 console.log(isNaN('123'));
 console.log(isNaN('123Sushant'));
+
+var  tt = -("20" + "30" + "50") - ("30" - "30" +60);
+console.log(tt);
