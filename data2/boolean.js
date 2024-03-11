@@ -109,3 +109,53 @@ console.log(result)
 
 var pass = [1,2,3,4,5];
 console.log( pass || true  )
+
+
+// Querry for i2
+console.log( '' || false)
+
+// AND (&&)
+
+// this will retund false if anyone condition gives falsy value, whenever it gets false value
+// it will return false and stop execution
+
+function call () {
+    console.log('hey call')
+    return true;
+}
+
+
+var result2 =  2 && 3 && 4 && 0 && call();
+console.log('result2' , result2)
+
+
+
+if(8>7 && 5<6 && 2>3 && call()) {
+     console.log('Hey')
+} else {
+     console.log('hey else')
+}
+
+if(8>7 & 5<6 & 2>3 & call()) {
+    console.log('Hey')
+} else {
+    console.log('hey else')
+}
+
+// Not operator
+// it will do the things in oposite
+
+var res1 =  !2; 
+console.log(res1)
+
+console.log(typeof !3)
+
+console.log(!0)
+
+
+//  Ternary Operation
+var check3 = true;
+var a33 = 8>4 ? 'greater' : 'smaller';
+
+// plus operator, assinment operator, equal operator, greater euqal, less equal
+
