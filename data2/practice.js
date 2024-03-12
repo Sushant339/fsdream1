@@ -90,3 +90,11 @@ console.log(undefined == 'undefined');
 console.log(null == 'null');
 console.log(null == 0);
 // https://262.ecma-international.org/5.1/#sec-11.9.3
+
+
+console.log(NaN == NaN); // false
+
+
+console.log(NaN === NaN); // false
+
+
