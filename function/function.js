@@ -109,3 +109,92 @@ function multipyByNumber3(val, multiplier=3){
 
 var tech1 = multipyByNumber3(10);
 console.log(tech1);
+
+function returnNumber(){
+    return 7979751091;
+}
+
+
+var a = function (){
+    console.log('hey');
+}
+
+a();
+
+// annonymous function
+
+//  a function which is not named 
+
+// function (){
+//     console.log('hey');
+// }
+
+var y = function getanme(){
+    console.log('suprise');
+}
+
+y();
+//getanme();
+
+// types of function
+
+
+// difference b/w normal function and arrow functions in terms of 'this'|| TODO
+// arrow function 
+// we can assign function into variable
+// we can pass any number of argumetns
+// we can pass any type of data in argumensts
+
+
+
+// we can pass function as a arguments
+// the function which accept the function as paramente is caller higher order function
+
+function returnmultiply(func, a){
+//func => callback function
+    var result = func(30, 30);
+return result*a;
+}
+
+function multiplytwodigit(a, b){
+    return a*b;
+
+}
+
+
+// the function which is passed as arguments is called as callback function
+returnmultiply(multiplytwodigit, 30); // here we are passing the functionn as arguments
+
+
+// functions
+// return keyword
+// parameters
+// arguments
+// higher order function
+// function expression
+// function declaration
+// anonymous function
+// we can assign function to variable
+
+function funcz(){
+    console.log('hey')
+}
+
+funcz();
+
+
+console.log(typeof funcz);
+
+// iife => immedeate invoced function expression
+// when the function is called as soon as function is created, this type of function does not need explicit call or invoked
+// IIFE function refrecne will not be available in memory for later use like another functions, this will help us to optimize memorY AND REMOVE UNNCESSORY FUNCTION REFRENCE FROM MEMORY, THIS TYPE OF THE FUNCTION CALLED ONLY ONCE SO WE DONOT NEED REFRENCE TO STORE FOR FURHTER CALL
+
+(
+    function (){
+        console.log('hey i am invoked immedeatly')
+    }
+) 
+
+();
+
+// 
