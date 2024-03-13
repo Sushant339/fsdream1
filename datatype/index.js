@@ -23,3 +23,8 @@ if(check1) {
 } else {
     console.log('inside else')
 }
+
+
+var num = 123465;
+num = num.toString();
+console.log(num.split(''));
